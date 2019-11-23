@@ -1,0 +1,13 @@
+Database used in this project is MySQL,(Here database information is case sensitive)
+
+Database Name - micronixdb
+
+Table Names - enquirytab, logintab, recordtab, replytab
+
+enquirytab, recordtab columns - Id(int), Name(text), Date(text), Email(varchar), MobileNo(text), Message(longtext)
+
+logintab - Id(int), Username(varchar), Password(varchar), Email(varchar)
+
+replytab - id(int), Email(varchar), Date(text), Subject(mediumtext), ReplyMessage(longtext)
+
+	
