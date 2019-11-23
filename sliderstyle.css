@@ -1,0 +1,28 @@
+#slidercontainer {
+	position: absolute;
+	margin-left: 45px;
+	margin-right: 50px;
+	margin-top: 50px;
+	width: 700px;
+}
+
+#prev{
+	position: absolute;
+	top: 175px;
+	left: -20px;
+	z-index: 10;
+}
+
+#next{
+	position: absolute;
+	top: 175px;
+	right: -21px;
+	z-index: 10;
+}
+
+.slider
+{
+	width:700px; /* each image */
+	height: 400px; /* each image */
+	border: 1px solid #fff;
+}

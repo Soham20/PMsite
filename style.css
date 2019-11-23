@@ -1,0 +1,296 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #c8c8c8;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em; 
+	background-image: url(../images/bdark.jpg);
+}
+
+a, a:link, a:visited { 
+	color: #fcc32c; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+p { 
+	margin: 0 0 15px 0; 
+	padding: 0; 
+}
+
+em { color: #fff; }
+
+img { border: none; }
+
+h1, h2, h3, h4, h5, h6 { color: #fff; }
+
+h1 { font-size: 30px; font-weight: normal; margin: 0 0 20px 0; padding: 5px 0; }
+
+h2 { font-size: 28px; font-weight: normal; padding-bottom: 20px; margin: 0 0 30px 0; font-weight: normal; background: url(../images/divider.jpg) bottom repeat-x }
+
+h3 { font-size: 20px; margin: 0 0 20px 0; padding: 0; padding: 0; font-weight: normal;  }
+
+h4 { font-size: 16px; margin: 0 0 20px 0; padding: 0; }
+
+h5 { font-size: 12px; margin: 0 0 10px 0; padding: 0; }
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;}
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+
+.imagewrapper { 
+	display: inline-block; 
+	border: 1px solid #2f2824; 
+	padding: 9px; 
+	margin-bottom: 10px; 
+	background: #000000;
+}
+
+.image_fl { 
+	float: left; 
+	margin: 3px 20px 0 0; 
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 20px; 
+}
+
+#ti{
+	text-shadow: rgb(110,110,110) 5px 5px 5px;	
+}
+
+#cntr
+{
+	position: absolute;
+	width: 360px;
+	float: left;
+	left: 160px;
+	top: 70px;
+}
+
+#col1 {
+	width: 360px;
+	position: absolute;
+	float: left;
+	left: 26px;
+	top: 66px;
+}
+
+#col2 {
+	width: 229px;
+	position: absolute;
+	float: right;
+	top: 200px;
+	left: 500px;
+	height: 372px;
+	color: #fcc32c;
+	top: 66px;
+} 
+
+#col3 {
+	width: 229px;
+	position: absolute;
+	float: right;
+	top: 200px;
+	left: 500px;
+	height: 372px;
+	top: 66px;
+} 
+
+#col2 p {
+	color: #c8c8c8;
+}
+
+#paraunit {
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	width: 660px;
+}
+
+#toolroom {
+	position: absolute;
+	top: 350px;
+	left: 50px;
+	width: 660px;
+}
+
+#right {
+	position: absolute;
+	left: 798px;
+	top: 5px;
+	width: 57px;
+}
+
+.servicelist { 
+	margin: 0 0 0 15px; 
+	padding: 0; 
+	list-style: none; 
+	text-align:left;
+}
+
+.servicelist li { 
+	margin: 0; 
+	padding: 0; 
+	font-size: 14px; 
+	display: block; 
+	height: 25px; 
+	margin-bottom: 15px; 
+	padding-left: 25px; 
+	text-decoration: none;
+	background:url(../images/cog.png) left no-repeat;
+}
+
+.servicelist li a { 
+	font-size: 14px; 
+	display: block; 
+	height: 25px; 
+	margin-bottom: 20px;
+	padding-top: 3px; 
+	padding-left: 10px; 
+	text-decoration: none; 
+}
+
+.servicelist li a:hover {
+	text-decoration:underline;
+}
+
+#connect {
+	position: absolute;
+	left: 500px;
+	top: 385px;
+	width: 150px;
+	height: 66px;
+}
+
+#connect a img {
+	left: 600px;
+	top: 800px;
+}
+
+#connect a.fb img:hover {
+	left: 600px;
+	top: 800px;
+	background:url(../images/fblogo.png) center left no-repeat;
+}
+
+#connect a.tw img:hover {
+	left: 600px;
+	top: 800px;
+	background:url(../images/twlogo.png) center left no-repeat;
+}
+
+/* contact from */
+#contactform {
+	position: absolute;
+	padding: 0;
+	width: 324px;
+	height: 293px;
+	left: 23px;
+	top: 4px;
+}
+
+#contactform form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#contactform form .input_field { 
+	width: 240px; 
+	padding: 5px; 
+	color: #999; 
+	background: #111; 
+	border: 1px solid #2f2824; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contactform form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 12px; 
+	font-size: 13px; 
+}
+
+#contactform form textarea { 
+	width: 328px;  
+	height: 80px; 
+	color: #999; 
+	padding: 5px; 
+	background: #111;
+	border: 1px solid #2f2824; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#contactform form .submit_btn { 
+	padding: 5px 14px; 
+	color: #fff;  
+	background: #111;
+	border: 1px solid #2f2824; 
+	font-size:14px; 
+	float:left;
+	margin: 10px 0px;
+}
+
+.submit_btn { 
+	padding: 5px 14px; 
+	color: #fff;  
+	background: #111;
+	border: 1px solid #2f2824; 
+	font-size:14px; 
+	float:left;
+	margin: 10px 0px;
+}
+
+#contactform form .reset_btn { 
+	padding: 5px 14px; 
+	color: #fff;  
+	background: #111;
+	border: 1px solid #2f2824; 
+	font-size:14px; 
+	float: right;
+	margin: 10px 0px;
+}
+/* End of contact from */
+/* Login form*/
+#loginform form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#loginform form .input_field { 
+	width: 240px; 
+	padding: 5px; 
+	color: #999; 
+	background: #111; 
+	border: 1px solid #2f2824; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#loginform form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 12px; 
+	font-size: 13px; 
+}
+
+#loginform form .submit_btn { 
+	padding: 5px 14px; 
+	color: #fff;  
+	background: #111;
+	border: 1px solid #2f2824; 
+	font-size:14px; 
+	float:left;
+	margin: 10px 0px;
+}
+/* End of login form */

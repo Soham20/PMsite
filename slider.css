@@ -1,0 +1,178 @@
+#container {
+	position: absolute;
+}
+#headerwrapper {
+	position:absolute;
+	left:150px;
+	width: 1050px;
+	height: 200px;
+	margin: 0 auto;
+	top: -1px;
+	box-shadow: 10px 10px 5px #151414;
+}
+
+#headercontent {
+	width: 1009px;
+	height: 200px;
+	margin: 0 auto;
+	position: absolute;
+	left: 21px;
+	top: -1px;
+}
+
+#headercontent h1{
+	font-size: 40px;
+	font-weight: normal;
+	padding: 5px;
+	text-align: top;
+	top: 33px;
+	position: absolute;
+	left: 141px;
+	height: 33px;
+	width: 779px;
+	color: #00004A;
+}
+
+#tagline h4 em
+{
+color: #2F112E;
+}
+
+
+#headercontent img{
+	position: absolute;
+	top: 18px;
+	left: 52px;
+}
+
+#tagline{
+	position: absolute;
+	height: 39px;
+	width: 275px;
+	left: 726px;
+	top: 77px;
+}
+
+#main {
+	width: 1030px;
+	height: 748px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	left: 150px;
+	top: 200px;
+	position: absolute;
+	box-shadow: 10px 10px 5px #151414;
+}
+
+#maincontent {
+	float: left;
+	width: 860px;
+	height: 690px;
+	padding: 30px 20px;
+	position: absolute;
+	top: -1px;
+	background: url(../images/img01.jpg) repeat center;
+	left: 150px;
+	box-shadow: 10px 10px 5px #151414;
+}
+
+#sidebar {
+	float: left;
+	position: absolute;
+	width: 150px;
+	height: 750px;
+	background: url(../images/side.jpg) repeat center;
+	left: 0px;
+	top: -1px;
+}
+
+#menu {
+	position: absolute;
+	clear: both;
+	width: 117px;
+	height: 355px;
+	margin: 0 0 0 17px;
+	left: -1px;
+	top: 10px;
+}
+
+#protab {
+	position: absolute;
+	left: -40px;
+	top: 27px;
+	width: 900px;
+	height: 637px;
+}
+
+#mactab {
+	position: absolute;
+	left: 10px;
+	top: 30px;
+	width: 720px;
+	height: 620px;
+}
+
+#procontent{
+	position: absolute;
+	left: 70px;
+	top: 530px;
+	width: 743px;
+	height: 63px;
+
+}
+
+#protab p
+{
+	text-align:center;
+}
+
+.gear {
+	position: absolute;
+	left: 1px;
+	top: 598px;
+	width: 150px;
+	height: 150px;
+}
+
+#footerwrapper {
+	position: absolute;
+	left: 150px;
+	top: 949px;
+	width: 1050px;
+	margin: 0 auto;
+	height: 130px;
+	background: url(../images/tumblr.jpg) repeat center;
+	box-shadow: 10px 10px 5px #151414;
+}
+
+#footercontent {
+	clear: both;
+	width: 1050px;
+	top:1000px;
+	height: 20px;
+	padding: 50px 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#footer a {
+	color: #ccc;
+}
+
+#scrol {
+	width: 869px;
+	height: 700px;
+	overflow: auto;
+	position: absolute;
+	top: 37px;
+	left: 29px;
+	clear: left;
+
+}
+
+#scrollContainer div.panel {
+    width: 850Spx;
+    height: 500px;
+	margin-left: 25px;
+	margin-right: 35px;
+}
